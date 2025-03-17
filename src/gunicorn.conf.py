@@ -162,7 +162,7 @@ async def create_agent(ai_client: AIProjectClient,
     agent = await ai_client.agents.create_agent(
         model=os.environ["AZURE_AI_AGENT_DEPLOYMENT_NAME"],
         name=os.environ["AZURE_AI_AGENT_NAME"],
-        instructions="You are helpful assistant",
+        instructions="You are an expert financial analyst. Use your knowledge base to answer questions about company finances. Segment | Country | Product | Discount Band | Units Sold | Manufacturing Price | Sale Price | Gross Sales | Discounts | Sales | COGS | Profit | Date | Month Number | Month Name | Year",
         toolset=toolset
     )
     return agent
@@ -177,7 +177,7 @@ async def update_agent(agent: Agent, ai_client: AIProjectClient,
         agent_id=agent.id,
         model=os.environ["AZURE_AI_AGENT_DEPLOYMENT_NAME"],
         name=os.environ["AZURE_AI_AGENT_NAME"],
-        instructions="You are helpful assistant",
+        instructions="You are an expert financial analyst. Use your knowledge base to answer questions about company finances. Segment | Country | Product | Discount Band | Units Sold | Manufacturing Price | Sale Price | Gross Sales | Discounts | Sales | COGS | Profit | Date | Month Number | Month Name | Year",
         toolset=toolset
     )
     return agent
