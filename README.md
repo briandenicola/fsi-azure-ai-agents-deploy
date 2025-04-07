@@ -16,7 +16,7 @@ Instructions are provided for deployment through GitHub Codespaces, VS Code Dev 
 
 ## Quick Deploy
 
-| [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Azure-Samples/get-started-with-ai-agents) | [![Open in Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Azure-Samples/get-started-with-ai-agents) | [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure-Samples%2Fget-started-with-ai-agents%2Frefs%2Fheads%2Fmain%2Finfra%2Fmain.json) |
+| [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/jakeatmsft/fsi-azure-ai-agents-deploy) | [![Open in Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/jakeatmsft/fsi-azure-ai-agents-deploy) | [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjakeatmsft%2Ffsi-azure-ai-agents-deploy%2Frefs%2Fheads%2Fmain%2Finfra%2Fmain.json) |
 |---|---|---|
 
 Github Codespaces and Dev Containers both allow you to download and deploy the code for development. Deploy to Azure will create the resources for later deployment. Detailed instructions for options to deploy this solution can be found in [deployment](#deployment).   
@@ -50,7 +50,7 @@ Make sure the following tools are installed:
 Download the project code:
 
 ```shell
-git clone https://github.com/Azure-Samples/get-started-with-ai-agents.git
+git clone https://github.com/jakeatmsft/fsi-azure-ai-agents-deploy.git
 ```
 At this point you could make changes to the code if required. However, no changes are needed to deploy and test the app as shown in the next step.
 
@@ -135,7 +135,7 @@ You can run this template virtually by using GitHub Codespaces. The button will 
 
 1. Open the template (this may take several minutes):
 
-    [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Azure-Samples/get-started-with-ai-agents)
+    [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/jakeatmsft/fsi-azure-ai-agents-deploy)
 
 2. Open a terminal window
 3. Continue with the [deploying steps](#deploying-steps)
@@ -152,7 +152,7 @@ A related option is VS Code Dev Containers, which will open the project in your 
 1. Start Docker Desktop (install it if not already installed [Docker Desktop](https://www.docker.com/products/docker-desktop/))
 2. Open the project:
 
-    [![Open in Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Azure-Samples/get-started-with-ai-agents)
+    [![Open in Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/jakeatmsft/fsi-azure-ai-agents-deploy)
 
 3. In the VS Code window that opens, once the project files show up (this may take several minutes), open a terminal window.
 4. Continue with the [deploying steps](#deploying-steps)
